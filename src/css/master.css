@@ -1,0 +1,119 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.logo i{
+    font-size: 50px;
+    color: red;
+}
+
+.logo p{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    color: red;
+}
+
+.logo span{
+    color: black;
+}
+
+.navigation{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* sub Navbar */
+
+.sub-container{
+    display: flex;
+    justify-content: center;
+    margin: 0 40px;
+    gap: 25px;
+    height: 50px;
+    align-items: center;
+    border-radius: 7px;
+    background-color: crimson;
+}
+
+.sub-container button{
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 15px;
+  }
+
+
+/* main content */
+
+.main-content {
+  padding: 10px 40px;
+}
+
+.main-content h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.main-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.main-content li {
+  margin-bottom: 20px;
+}
+
+.main-content h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.main-content p {
+  font-size: 14px;
+}
+
+.main-content a {
+  text-decoration: none;
+  color: #007bff; 
+  font-weight: bold;
+}
+
+.main-content a:hover {
+  text-decoration: underline;
+}
+
+/* bottom nav */
+.bottom{
+    background: crimson;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    margin: 0 40px;
+    border-radius: 7px;
+    align-items: center;
+}
+
+.credit {
+    color: black;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.credit a{
+    text-decoration: none;
+    color:black ;
+}
+
+
