@@ -11,7 +11,6 @@ const SubNavbar = () => {
       <Button onClick={() => redirect("/sport")}>Sport</Button>
       <Button onClick={() => redirect("/finance")}>Finance</Button>
       <Button onClick={() => redirect("/technology")}>Technology</Button>
-      <Button onClick={() => redirect("/automotive")}>Automotive</Button>
     </div>
   );
 };

@@ -14,7 +14,7 @@ function Homepage() {
   }, []);
 
   const getNews = () => {
-    const key = "dff805de570d48db971b90cd04f04158";
+    const key = "cb1f1e9b7fe545b2be4c49c7cd5bd141";
 
     axios
       .get(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${key}`)
